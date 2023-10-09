@@ -43,12 +43,8 @@ return res.send({
 });
 
 
-
-
-
-
 // open broswer on this -> "localhost:4000"
-var port = process.env.PORT || 1539
+var port = process.env.PORT || 4000
 console.log("Running on port:" + port)
 app.listen(port);
 
